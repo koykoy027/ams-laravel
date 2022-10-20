@@ -20,3 +20,16 @@
 .default-a{
     text-decoration: none !important;
 }
+
+.btn-settings{
+    background: #424242;
+    color: #fff;
+}
+.btn-active{
+    background: #424242;
+    color: #fff;
+}
+
+#settings-password{
+    display: none;
+}

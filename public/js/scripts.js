@@ -13,6 +13,25 @@ function findEmployee() {
     document.getElementById('btnFindEmployee').style.borderBottom = "2px solid orange"
 }
 
+// ACCOUNT SETTINGS
+function btnSettingsGeneral() {
+    document.getElementById("settings-general").style.display = 'block'
+    document.getElementById("settings-password").style.display = 'none'
+
+
+    document.getElementById("btnSettingsGeneral").classList.add('btn-secondary')
+    document.getElementById("btnSettingsPassword").classList.remove('btn-secondary')
+
+}
+
+function btnSettingsPassword() {
+    document.getElementById("settings-general").style.display = 'none'
+    document.getElementById("settings-password").style.display = 'block'
+
+
+    document.getElementById("btnSettingsGeneral").classList.remove('btn-secondary')
+    document.getElementById("btnSettingsPassword").classList.add('btn-secondary')
+}
 
 
 
@@ -33,9 +52,7 @@ function findEmployee() {
 
 
 
-
-
-
+// CORE JS
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function

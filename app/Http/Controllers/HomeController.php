@@ -29,6 +29,6 @@ class HomeController extends Controller
 
     public function settings()
     {
-        return view('public.settings');
+        return view('public.settings.settings');
     }
 }
