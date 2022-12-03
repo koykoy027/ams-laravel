@@ -9,6 +9,7 @@
             Alumni connect @yield('title')
         </title>
 
+        @include('public.modal')
         @include('public.layouts.assets')
 
     </head>

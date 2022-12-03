@@ -42,6 +42,7 @@
         </div>
     </div>    
 
-    
-    <button class="btn btn-primary float-end">Submit changes</button>
+    <button type="button" class="btn btn-primary float-end" data-bs-toggle="modal" data-bs-target="#btnGeneralInformation">
+        Save changes
+    </button>    
 </form>
